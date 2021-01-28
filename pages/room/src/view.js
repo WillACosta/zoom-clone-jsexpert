@@ -34,7 +34,8 @@ class View {
     const video = this.createVideoElement({
       src: url,
       srcObject: stream
-    })
+    });
+
     this.appendToHTMLTree(userId, video, isCurrentId)
   }
 
